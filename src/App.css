@@ -24,6 +24,42 @@
   height: 597px;
 }
 
+#del{
+  position: absolute;
+  right: 7%;
+  color: #fff;
+  background: #0ab6ab;
+  border: none;
+  height: 25px;
+  font-weight: 500;
+  border-radius: 11%;
+  cursor: pointer;
+}
+
+#edit{
+  position: absolute;
+  right: 21%;
+  color: #fff;
+  background: #0ab6ab;
+  border: none;
+  height: 25px;
+  font-weight: 500;
+  border-radius: 11%;
+  cursor: pointer;
+}
+
+#del:hover{
+  background-color: #fff;
+  color: #0ab6ab;
+  border: none;
+}
+
+#edit:hover{
+  background-color: #fff;
+  color: #0ab6ab;
+  border: none;
+}
+
 .head
 {
   background: #0AB6AB;
@@ -81,8 +117,20 @@
 .hello{
   padding: 10px 23px;
   font-weight: 400;
-  color: #7A7777;
+  color: #fff;
   font-size: 17px;
+}
+
+.chitti{
+  position: absolute;
+  right: 43%;
+  border: none;
+  height: 25px;
+  font-weight: 400;
+  border-radius: 5px;
+  text-align: left;
+  padding: 0px 4px;
+  outline: none;
 }
 
 .com input{
@@ -120,10 +168,16 @@
     color: #201F1F;
     border: 1px solid transparent;
     text-align: center;
+    border: none;
+    outline: none;
 }
 
 .top input::hover{
   border: 1px solid transparent;
+}
+
+.hello img{
+  
 }
 
 @media only screen and (max-width :700px){
