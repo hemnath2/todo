@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Main from './Main';
+import TimeLine from './TimeLine';
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
         </div>
         <div className='body1'>
         <div style={{height:`${count}`}}>
+        <TimeLine day={day} date1={date1} months={months}/>
         <h1>Today</h1>
         <p>{kesav}</p>
         <Main change={change}  />

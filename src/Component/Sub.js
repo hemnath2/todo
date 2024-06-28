@@ -45,9 +45,10 @@ export default function Sub(props) {
           
         }
         </span>
-      {E1 === false? <button id='edit' onClick={editor}>Edit</button> :
+      <div className='smallBtnContainer'>
+        {E1 == false? <button id='edit' onClick={editor}>Edit</button> :
       <button id='edit' onClick={submitor}>submit</button>}
-      <button id='del' onClick={props.del}>Delete</button>
+      <button id='del' onClick={props.del}>Delete</button></div>
       {/* Delete button added for deleting the tasks 16/06  */}
     </div>
     </div>

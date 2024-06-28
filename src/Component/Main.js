@@ -1,12 +1,13 @@
 import React, {useEffect, useState} from 'react'
 import Sub from './Sub';
+import TimeLine from './TimeLine';
 
 export default function Main(props) {
 
     let [val, setValue] = useState();
     let [arr, setArr] = useState([]);
     let [val2, setValue2] = useState();
-
+     
 
     let adding=()=>{
          if(val === ''){
@@ -67,6 +68,7 @@ export default function Main(props) {
               inputField = {<input type='text' maxLength={30}  className='chitti' value={x} placeholder={x} onChange={change1}/> }
             />)
         })}
+
     </div>
   )
 }

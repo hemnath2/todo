@@ -15,4 +15,16 @@ function App() {
   );
 }
 
+
+// git inint
+// git status
+// git add .
+// git commit -m "initial commit"
+// git branch -M 'main
+// git remote add origin "url"
+// git push -u origin 'main'
+// npm run deploy
+// git remote add github https://github.com/hemnath2/todo.git
+// git push -u github main
+
 export default App;
